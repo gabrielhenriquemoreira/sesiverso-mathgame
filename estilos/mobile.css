@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* Mobile version */
+/* 0px - 768px */
+
+
+/*
+
+a52a2a
+ffa9a3
+dde0bd
+5c95ff
+000022
+
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Jersey+10&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --fonte-normal: 'Anek Devanagari';
+    --fonte-titulo: 'Jersey 10', sans-serif;
+    --cor0: #a52a2a;
+    --cor1: #ffa9a3;
+    --cor2: #dde0bd;
+    --cor3: #5c95ff;
+    --cor4: #000022;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #a52a2a;
+}
+
+header > ul > li {
+    list-style-type: none;
+}
+
+header > h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--cor4);
+}
+
+header h1:hover {
+    font-size: 2.7em;
+    transition-duration: 1s;
+}
+
+header h1:not(:hover) {
+    transition-duration: 1s;
+}
+
+header ul {
+    text-align: center;
+}
+
+header li {
+    display: inline-block;
+    color: var(--cor4);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    background-color: var(--cor1);
+    padding: 5px;
+    border-radius: 10px;
+    font-family: var(--fonte-titulo);
+    font-size: 1.3em;
+}
+
+header li a {
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+header li a:hover {
+    color: var(--cor0);
+    transition-duration: 1s;
+}
+
+header li:hover {
+    background-color: var(--cor2);
+    transition-duration: 0.9s;
+    color: var(--cor0);
+    font-size: 1.6em;
+}
+
+header li:not(:hover) {
+    transition-duration: 1s;
+}
+
+main p {
+    text-align: justify;
+    margin: 20px;
+    text-indent: 10px;
+}
+
+main div.DivPrincipal {
+    margin: 0px;
+    padding: 1px;
+    width: 100vw;
+    height: 300px;
+}
+
+main div#div1 {
+    background-color: aqua;
+}
+
+main div#div2 {
+    background-color: #ffa9a3;
+}
+
+main div#div3 {
+    background-color: cadetblue;
+}
