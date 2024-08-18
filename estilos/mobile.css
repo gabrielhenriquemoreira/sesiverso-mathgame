@@ -41,11 +41,12 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
     height: 100vh;
+    box-sizing: border-box;
 }
 
 header {
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     background-color: #a52a2a;
 }
 
@@ -71,6 +72,11 @@ header h1:not(:hover) {
 
 header ul {
     text-align: center;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
+    padding-bottom: 40px;
 }
 
 header li {
@@ -108,7 +114,6 @@ header li:not(:hover) {
 }
 
 main p {
-    text-align: justify;
     margin: 20px;
     text-indent: 10px;
 }
@@ -117,17 +122,84 @@ main div.DivPrincipal {
     margin: 0px;
     padding: 1px;
     width: 100vw;
-    height: 300px;
+    height: 400px;
 }
 
 main div#div1 {
     background-color: aqua;
+    background-image: url(../imagens/QuadroNegro.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 main div#div2 {
-    background-color: #ffa9a3;
+    background-image: linear-gradient(to left, var(--cor0), var(--cor4));
+    position: relative;
 }
 
 main div#div3 {
     background-color: cadetblue;
+    background-image: url(../imagens/PessoaImersa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    
+}
+
+main div#div4 {
+    background-color: var(--cor2);
+}
+
+main div.DivTexto {
+    background-color: rgba(255, 255, 255, 0.784);
+    width: 190px;
+    padding: 0px;
+    height: 100%;
+    /*margin-top: -1px;
+    margin-left: -2px;*/
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+main div.DivTexto p {
+   margin-top: 35%;
+}
+
+main div#divtxt1 {
+    border-radius: 7px;
+    margin: 40px 0px 0px 20px;
+    height: fit-content;
+}
+
+main div#divtxt2 {
+    width: 350px;
+    height: fit-content;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main div#divtxt2 img {
+    width: 100%;
+    margin-bottom: -120px;
+    height: 100%;
+    padding-bottom: 0px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+main div#divtxt3 {
+   margin: 40px 0px 0px 20px;
+   height: fit-content;
+   border-radius: 7px;
+    
+}
+
+footer {
+    margin: 20px;
 }
