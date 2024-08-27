@@ -56,15 +56,14 @@ header > ul > li {
 
 header > h1 {
     font-family: var(--fonte-titulo);
-    font-size: 2.5em;
     text-align: center;
     color: var(--cor4);
 }
 
-header h1:hover {
-    font-size: 2.7em;
+/*header h1:hover {
+    font-size: 3.8em;
     transition-duration: 1s;
-}
+}*/
 
 header h1:not(:hover) {
     transition-duration: 1s;
@@ -89,7 +88,7 @@ header li {
     padding: 5px;
     border-radius: 10px;
     font-family: var(--fonte-titulo);
-    font-size: 1.3em;
+    /*font-size: 1.3em;*/
 }
 
 header li a {
@@ -162,7 +161,6 @@ main div.DivTexto {
     margin-left: -2px;*/
     /*border: 1px solid black;*/
     text-align: center;
-
 }
 
 main div.DivTexto p {
@@ -171,7 +169,6 @@ main div.DivTexto p {
 
 main div#divtxt1 {
     border-radius: 7px;
-    margin: 85px 0px 0px 20px;
     height: fit-content;
     padding: 10px 0px;
 }
