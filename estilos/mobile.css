@@ -136,9 +136,10 @@ main div#div1 {
 main div#div2 {
     background-image: linear-gradient(to bottom, var(--cor0), #1f0525);
     position: relative;
+    height: 500px;
 }
 
-main div#div3 {
+/*main div#div3 {
     background-color: cadetblue;
     background-image: url(../imagens/PessoaImersa.jpg);
     background-position: center center;
@@ -146,7 +147,7 @@ main div#div3 {
     background-size: cover;
     height: 420px;
     
-}
+}*/
 
 main div#div4 {
     background-color: rgb(159, 164, 223);
@@ -173,16 +174,6 @@ main div#divtxt1 {
     padding: 10px 0px;
 }
 
-main div#divtxt2 {
-    width: 350px;
-    height: 360px;
-    border-radius: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 main div#divtxt2 p {
     top: 120px;
     position: relative;
@@ -197,14 +188,14 @@ main div#divtxt2 img {
     margin-top: 2px;
 }
 
-main div#divtxt3 {
+/*main div#divtxt3 {
    margin: 40px 0px 0px 20px;
    height: fit-content;
    border-radius: 7px;
    margin-top: 75px;
    padding: 10px 0px;
     
-}
+}*/
 
 footer {
     margin-top: -5px;

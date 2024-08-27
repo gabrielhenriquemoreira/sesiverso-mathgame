@@ -17,9 +17,18 @@ Telas grandes: Maiores que 1200px
 @media screen and (max-width: 769px) {
     main div#divtxt1 {
         margin: 85px 0px 0px 20px;
-        width: 20px;
+        width: 200px;
+        transition-duration: 1s;
+    }
+
+    main div#divtxt3 {
+        margin: 40px 0px 0px 20px;
+        height: fit-content;
+        border-radius: 7px;
+        padding: 10px 0px;
     }
     
+
     header > h1 {
         font-size: 3em;
     }
@@ -27,6 +36,16 @@ Telas grandes: Maiores que 1200px
     header h1:hover {
         font-size: 3.3em;
         transition-duration: 1s;
+    }
+
+
+    main div#div3 {
+        background-color: cadetblue;
+        background-image: url(../imagens/PessoaImersa.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 420px;
     }
 
     header li {
@@ -43,12 +62,58 @@ Telas grandes: Maiores que 1200px
     header li:not(:hover) {
         transition-duration: 1s;
     }
+
+    main div#divtxt2 {
+        width: 350px;
+        height: 360px;
+        border-radius: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 1020px) {
     main div#divtxt1 {
         margin: 111px 0px 0px 66px;
         width: 300px;
+        transition-duration: 1s;
+    }
+
+    main div#divtxt3 {
+        margin: 111px 0px 0px 66px;
+        height: fit-content;
+        border-radius: 7px;
+        padding: 10px 0px;
+        width: 300px;
+    }
+
+    /*main div#divtxt2 {
+        width: 390px;
+        height: 430px;
+    }*/
+
+    main div#divtxt2 {
+        width: 350px;
+        height: 360px;
+        border-radius: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    main div#div3 {
+        background-image: url(../imagens/PessoaImersa.jpg);
+    }
+
+    main div#div3 {
+        background-position: center center;
+    }
+
+    main div#divtxt3 p {
+        font-size: 19px;
     }
 
     main div#divtxt1 p {
@@ -70,7 +135,73 @@ Telas grandes: Maiores que 1200px
 }
 
 @media screen and (min-width: 1020px) {
-    h1 {
+    header h1 {
         font-size: 5em;
+    }
+
+    header h1:hover {
+        transition-duration: 1s;
+    }
+
+    header h1:not(:hover) {
+        transition-duration: 1s;
+    }
+
+    header h1:hover {
+        font-size: 5.3em;
+    }
+
+    header a {
+        font-size: 2em;
+    }
+
+    /*header li:hover {
+        font-size: 7em;
+    }*/
+
+    main div#div3 {
+        background-image: url(../imagens/PessoaImersa.jpg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: cover;
+    }
+
+    main div#divtxt1 {
+        margin: 90px auto;
+        height: fit-content;
+        border-radius: 7px;
+        padding: 10px 0px;
+        min-width: 400px;
+        transition-duration: 1s;
+    }
+
+    main div#divtxt1 p {
+        font-size: 22px;
+    }
+
+    main div#divtxt3 {
+        margin: 85px auto;
+        height: fit-content;
+        border-radius: 7px;
+        padding: 10px 0px;
+        min-width: 400px;
+    }
+
+    main div#divtxt3 p {
+        font-size: 22px;
+    }
+
+    main div#divtxt2 {
+        width: 390px;
+        height: 430px;
+        border-radius: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    div#divtxt2 p {
+        font-size: 21.2px;
     }
 }
