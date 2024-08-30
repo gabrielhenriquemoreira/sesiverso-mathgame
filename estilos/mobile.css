@@ -42,6 +42,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
+    background-color: var(--cor1);
 }
 
 header {
@@ -174,6 +175,23 @@ main div#divtxt1 {
     padding: 10px 0px;
 }
 
+main.artigo {
+    max-width: 700px;
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    color: var(--cor4);
+    background-color: rgb(255, 240, 224);
+    
+}
+
+main h2 {
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 2em;
+    color: var(--cor4);
+}
+
 main div#divtxt2 p {
     top: 120px;
     position: relative;
@@ -186,6 +204,23 @@ main div#divtxt2 img {
     padding-bottom: 0px;
     border-radius: 40px 40px 0px 0px;
     margin-top: 2px;
+}
+
+div#div4 {
+    position: relative;
+}
+
+div#video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul.citar{
+    list-style: armenian;
+    text-align: center;
+    list-style-position: inside;
 }
 
 /*main div#divtxt3 {

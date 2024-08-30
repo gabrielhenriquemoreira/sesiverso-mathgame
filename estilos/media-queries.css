@@ -81,6 +81,10 @@ Telas grandes: Maiores que 1200px
         transition-duration: 1s;
     }
 
+    video {
+        width: 550px;
+    }
+
     main div#divtxt3 {
         margin: 111px 0px 0px 66px;
         height: fit-content;
@@ -135,6 +139,10 @@ Telas grandes: Maiores que 1200px
 }
 
 @media screen and (min-width: 1020px) {
+    video {
+        width: 550px;
+    }
+
     header h1 {
         font-size: 5em;
     }
